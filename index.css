@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one{
+    width: 1400px;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 1cm;
+    border: 1px solid;
+}
+header{
+    width: 1400px;
+    height: 50px;
+    background-color: rgb(21, 188, 225);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+header ul {
+list-style: none;
+display: flex;
+gap: 35px;
+font-size: 20px;
+
+}
+header ul li{
+    cursor: pointer;
+    color: blue;
+}
+header ul li:hover{
+    color: white;
+    padding: 5px 10px;
+    background-color: brown;
+    transition:all 0.3s linear;
+    border-radius: 5px;
+}
+header input{
+    padding: 9px 18px;
+    background-color: rgb(227, 226, 226);
+    font-size: 20px;
+    outline: none;
+    border: 1px solid lightcyan;
+    border-radius: 5px;
+    caret-color: blue;
+    margin-left: 1cm;
+}
+header input::placeholder{
+    color: crimson;
+}
+a{
+    text-decoration: none;
+}
+section{
+    padding: 10px;
+}
+
+section :nth-child(2){
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+section :nth-child(1){
+    text-align: center;
+    font-size: 50px;
+}
